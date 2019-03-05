@@ -24,7 +24,7 @@
   "license": "MIT",
   "scripts": {
     "build": "cd app && next build",
-    "now-build": "next build",
+    "now-build": "cd app && next build",
     "start": "npm run build && env NODE_ENV=production node app.js",
     "dev": "nodemon --ignore app/ app.js"
   },
